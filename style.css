@@ -104,7 +104,7 @@ nav .menu .menu-button:hover {
     .container .links {
         display: flex;
         justify-content: center;
-        margin-top: 48px;
+        margin-top: 500px;
         column-gap: 16px;
     }
 
