@@ -1,46 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dilan Baykara</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-
-<body>
-    
-     <!--! Header Test -->
-     <header class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Cars Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function myFunction() {
+        document.getElementById("dilan").innerHTML = "+905555555555";
+      }
+      </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <a href="#">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
         <nav>
-            <div class="logo">
-                <a href="#">
-                  
-                    
-            </div>
-            <div class="menu"> 
-                <ul>
-                    <li><a href="#">Ana Sayfa</a></li>
-                    <li><a href="hakkimizda.html">Hakkımda</a></li>
-                    <li><a href="iletisim.html">İletişim</a></li>
-                </ul>
-                <a href="https://api.whatsapp.com/send?phone=905313852641" class="menu-button">Whatsapp</a>
-            </div>
+          <ul>
+            <li><a href="#">Ana sayfa</a></li>
+            <li><a href="#">Çalışmalarım</a></li>
+            <li><a href="hakkımda.html">Hakkımda</a></li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-bars"></i>
+              </a>
+            </li>
+          </ul>
         </nav>
-     </header>
-     <!--! Header End -->  
+      </div>
 
-     <!--! Section Start -->
-     <section class="container">
-        
-        <div class="links">
-            <a href="https://www.youtube.com">Youtube</a>
-            <a href="https://www.instagram.com">İnstagram</a>
+      <div class="row">
+        <div class="col">
+          <h1>
+            Dilan Baykara
+            <hr />
+            Dijital Sanat
+          </h1>
+          <p class="desc" ondblclick="myFunction()">
+            Bana ulaşmak için<br> Bu paragrafa çift tıklamanız yeterli olacaktır...
+          </p>
+
+          <h4 id="dilan">
+          <button class="btn">Ben kimim?</button>
         </div>
-     </section>
-     <!--! Section End-->
-
-</body>
-
+        <div class="col">
+          <div class="cards">
+            <div class="card card-1">
+              <div class="card-head">
+                <h5>İnstagram</h5>
+                <p>İnstagram üzerinden iletişime geçmek için tıklayın.</p>
+              </div>
+              <div class="card-bottom">
+                <a href="https://www.instagram.com" class="btn">Tıkla</a>
+                
+              </div>
+            </div>
+            <div class="card card-2">
+              <div class="card-head">
+                <h5>Youtube</h5>
+                <p>Eğitim videolarımı izlemek için tıklayın.</p>
+              </div>
+              <div class="card-bottom">
+                <a href="https://www.youtube.com" class="btn">Tıkla</a>
+              </div>
+            </div>
+   
+              </div>
+              <div class="card-bottom">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
