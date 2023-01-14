@@ -13,7 +13,7 @@
   padding-left: 8%;
   padding-right: 8%;
   background-image:
-    url(./images/bg.jpg);
+    url(bg.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -125,17 +125,10 @@ h1 {
 }
 
 .card.card-1 {
-  background-image: url(./images/bg1.png);
+  background-image: url(bg1.png);
 }
 
 .card.card-2 {
-  background-image: url(./images/bg2.png);
+  background-image: url(bg2.png);
 }
 
-.card.card-3 {
-  background-image: url(./images/pic-3.png);
-}
-
-.card.card-4 {
-  background-image: url(./images/pic-4.png);
-}
